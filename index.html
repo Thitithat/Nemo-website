@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Nemo website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit&family=Prompt&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="https://www.canva.com/design/DAE1TKA6keo/V9V2Da15qZjwdoyrgbG3Rg/view?utm_content=DAE1TKA6keo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">PORTFOLIO</a></li>
+                    <li><a href="https://web.facebook.com/profile.php?id=100007978869449">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+<div class="text-box">
+    <h1>Thitithat Darayon</h1>
+    <p>Bangkok Christian College</p>
+    <img src="image/nwdn_file_temp_1604412949655.jpg">
+</div>
+    </section>
+
+    <section>
+
+        <!---course--->
+        <section class="course">
+            <h1>Personal Information</h1>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Information</h3>
+                    <p>Nickname : Nemo <br> <br>
+                        Age : 18 years old <br> <br>
+                        Date of birth : 14 january 2004 <br> <br>
+                        Program : Sciences and Mathemathics <br> <br>
+                        Height : 172 cm  Weight : 79 km <br> <br>
+                        Motto : When we are tired and want to give up, <br> <br> 
+                        think about the first time we try to do it. <br> <br>
+                        Contact number : 090-987-9722 </p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Grades <br> <br>
+                       School : Bangkok Chiristian College <br> <br>
+                       GPAX : 3.55 <br> <br>
+                       GPA Math : 3.55 <br> <br>
+                       GPA science : 3.36 <br> <br>
+                       GPA English : 3.88 </p>
+                </div>
+                <div class="course-col">
+                    <h3>Talent</h3>
+                    <p>
+                        PLAY MUSIC <br> <br>
+                        Thai music : fiddle <br> <br>
+                        International music : violin <br> <br>
+                        HANDICRAFT <br> <br>
+                        I can make furnitture </p>
+                </div>
+            </div>
+    </section>
+
+    <!----campus----->
+
+    <section class="campus">
+        <h1>My potential</h1>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="image/IMG_4958.jpg">
+                <div class="layer">
+                    <h3>My Activity</h3>
+                    <a href="https://thitithat.github.io/Nemo-activity/" class="btn"> click here</a>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="image/IMG_4959.jpg">
+                <div class="layer" href=""img src="images2/sat score.pdf">
+                    <h3>My Reward</h3>
+                    <a href="https://thitithat.github.io/Nemo-reward/" class="btn"> click here</a>
+                </div>
+            </div>
+                <div class="campus-col">
+                    <img src="image/IMG_4960.jpg">
+                    <div class="layer">
+                        <h3>My Certificate</h3>
+                        <a href="https://thitithat.github.io/Nemo-certificate/" class="btn"> click here</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---call to action--->
+
+    <section class="cta">
+        <h1>This is my webstie</h1>
+        <a href="https://web.facebook.com/profile.php?id=100007978869449" class="hero-btn">contact me</a>
+    </section>
+
+    <!------JavaScript for Toggle Menu------>
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+
+</html> 
